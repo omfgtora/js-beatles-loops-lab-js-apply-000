@@ -13,7 +13,7 @@ function johnLennonFacts(facts){
     response.push(facts[i] + "!!!");
     i++;
   }
-  return facts
+  return response
 }
 
 function iLoveTheBeatles(int){
