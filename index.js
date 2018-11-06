@@ -20,9 +20,11 @@ function iLoveTheBeatles(int){
   var response = [];
   if (int < 15){
     int++
+  } else {
+    return "I love the Beatles!"
   }
   do {
-    response.push("I love the beatles!")
+    response.push("I love the Beatles!")
     int--
   } while (int > 0)
   return response
