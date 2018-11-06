@@ -18,6 +18,9 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(int){
   var response = [];
+  if (int < 15){
+    int++
+  }
   do {
     response.push("I love the beatles!")
     int--
